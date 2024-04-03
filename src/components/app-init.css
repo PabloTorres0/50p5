@@ -1,0 +1,43 @@
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../assets/img.avif');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    filter: blur(10px);
+    transition: all 3s ease-out;  
+    position: absolute;
+    top:0;
+    left:0;  
+}
+
+.container-active1{
+    filter: blur(10px);
+}
+.container-active2{
+    filter: blur(0px);
+}
+.div-container{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: -50px;
+    left: -20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    font-size: 3rem;
+    color: white;
+    position : absolute;
+    top:50vh;
+    left:50vw;
+    transition: all .8s ease-out;
+
+}
+.h1-active{
+    color:transparent
+}
